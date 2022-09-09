@@ -10,7 +10,7 @@
   */
 int main(void)
 {
-	char nbase_16 i;
+	char nbase_16;
 
 	for (nbase_16 = 48; nbase_16 <= 57; nbase_16++)
 	{
