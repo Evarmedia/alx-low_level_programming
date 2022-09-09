@@ -3,13 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
- /**
-   * main -Entry point of the program
-   * program takes no arg.
-   *
-   * Description - uses if else to determine if an int is nagative or positve
-   *
-   */
+/**
+  *
+  * main -Entry point of the program
+  * program takes no arg.
+  *
+  * Description - uses if else to determine if an int is nagative or positve
+  */
 int main(void)
 {
 	int n;
@@ -27,7 +27,7 @@ int main(void)
 	else
 	{
 
-		printf("%d is nagative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
