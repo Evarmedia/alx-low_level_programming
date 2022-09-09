@@ -6,8 +6,8 @@
   * main- entry point og the program
   * takes no argument
   *
-  * Description - determing if int is positve or negative usinf ifelse
-  * Retuens 0(success)
+  * Description: determing if int is positve or negative usinf ifelse
+  * Return: Program always return 0(success)
   */
 int main(void)
 {
