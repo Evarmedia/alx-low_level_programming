@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
 /**
+  * main- entry point og the program
+  * takes no argument
   *
-  * main -Entry point of the program
-  * program takes no arg.
-  *
-  * Description - uses if else to determine if an int is nagative or positve
+  * Description - determing if int is positve or negative usinf ifelse
+  * Retuens 0(success)
   */
 int main(void)
 {
