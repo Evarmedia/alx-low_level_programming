@@ -4,13 +4,12 @@
 /* more headers goes there */
 
  /**
- * main- Entry point of th progam
- * program takes no arg.
- *
- * Description - uses if else to determine if an int is nagative or positve
- *
- */
-
+   * main -Entry point of the program
+   * program takes no arg.
+   *
+   * Description - uses if else to determine if an int is nagative or positve
+   *
+   */
 int main(void)
 {
 	int n;
@@ -31,4 +30,4 @@ int main(void)
 		printf("%d is nagative\n", n);
 	}
 	return (0);
-}	
+}
