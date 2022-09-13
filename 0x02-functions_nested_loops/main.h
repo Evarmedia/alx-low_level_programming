@@ -1,11 +1,14 @@
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
+
 /**
-  * _putchar -writes the character c to stdout
-  * @c: the character to print
+  * File : main.h
+  *
   *
   * Return: Always returns 0(success)
   * On error, -1 is returned, and err is set appropriately.
   */
-int _putchar(char c)
-{
-	return (fwrite(1, &c, 1));
-}
+int _putchar(char c);
+int main(void);
+
+#endif
