@@ -6,11 +6,6 @@
   *
   * Return: Always returns 0(success)
   */
-int _putchar(char c)
-{ 
-	return (fwrite(1, &c, 1));
-}
-
 int main(void)
 {
 	printf("_putchar\n");
