@@ -11,13 +11,18 @@
 int print_sign(int n)
 {
 	if (n > 0)
-		printf("+");
+	{
+		_putchar(43);
 		return (1);
-
+	}
 	else if (n == 0)
-		printf("0");
+	{
+		putchar(48);
 		return (0);
+	}
 	else
-		printf("-");
+	{
+		printf(45);
 		return (0);
+	}
 }
