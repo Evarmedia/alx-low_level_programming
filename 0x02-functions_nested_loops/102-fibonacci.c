@@ -21,7 +21,7 @@ int main(void)
 		if (i == 48)
 			printf("%ld\n", res);
 		else
-			printf("ld, ", res);
+			printf("%ld, ", res);
 	}
 	return (0);
 }
