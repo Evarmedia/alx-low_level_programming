@@ -11,8 +11,30 @@
   */
 void print_to_98(int n)
 {
-	for (n = n; n <= 98; n++)
+	int num_1;
+
+	num_1 = n;
+	if ((num_1 > 98) || (num_1 == 98))
 	{
-		printf("%d, ", n);
+		while (num_1 >= 98)
+		{
+			if (num_1 == 98)
+				printf("%d", num_1);
+			else
+				printf("%d, ", num_1);
+			num--
+		}
 	}
+	else if ((val < 98) || (val == 98))
+	{
+		while (num_1 <= 98)
+		{
+			if (num_1 == 98)
+				printf("%d", num_1);
+			else
+				printf("%d, ", num_1);
+			num++
+		}
+	}
+	putchar(10);
 }
