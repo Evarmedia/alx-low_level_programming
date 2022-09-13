@@ -7,15 +7,15 @@
   */
 int main(void)
 {
-	unsigned long prev, next, res;
-	unsigned long prev_1af, prev_2af, next_1af, next_2af;
-	unsigned long first_af, snd_af;
+	long unsigned int prev, next, res;
+	long unsigned int prev_1af, prev_2af, next_1af, next_2af;
+	long unsigned int first_af, snd_af;
 	int i;
 
 	i = 1;
 	prev = 1;
 	next = 2;
-	printf("%lu, %lu, " prev, next);
+	printf("%lu, %lu, ", prev, next);
 	while (i <= 90)
 	{
 		res = prev + next;
