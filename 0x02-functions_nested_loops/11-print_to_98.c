@@ -22,7 +22,7 @@ void print_to_98(int n)
 				printf("%d", num_1);
 			else
 				printf("%d, ", num_1);
-			num--
+			num_1--;
 		}
 	}
 	else if ((val < 98) || (val == 98))
@@ -33,7 +33,7 @@ void print_to_98(int n)
 				printf("%d", num_1);
 			else
 				printf("%d, ", num_1);
-			num++
+			num_1++;
 		}
 	}
 	putchar(10);
