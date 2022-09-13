@@ -25,7 +25,7 @@ void print_to_98(int n)
 			num_1--;
 		}
 	}
-	else if ((val < 98) || (val == 98))
+	else if ((num_1 < 98) || (num_1 == 98))
 	{
 		while (num_1 <= 98)
 		{
