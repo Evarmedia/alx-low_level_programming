@@ -7,9 +7,9 @@
   */
 int main(void)
 {
-	long unsigned int prev, next, res;
-	long unsigned int prev_1af, prev_2af, next_1af, next_2af;
-	long unsigned int first_af, snd_af;
+	unsigned long int prev, next, res;
+	unsigned long int prev_1af, prev_2af, next_1af, next_2af;
+	unsigned long int first_af, snd_af;
 	int i;
 
 	i = 1;
