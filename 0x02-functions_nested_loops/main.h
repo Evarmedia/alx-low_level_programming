@@ -2,13 +2,14 @@
 #define MAIN_H_INCLUDED
 
 /**
-  * File : main.h
+  * File : main.h - header file for the program
   *
-  *
+  * Desc - contains all functions used
   * Return: Always returns 0(success)
   * On error, -1 is returned, and err is set appropriately.
   */
 int _putchar(char c);
 int main(void);
+int print_alphabet(void);
 
 #endif
