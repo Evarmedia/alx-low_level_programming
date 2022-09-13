@@ -10,19 +10,22 @@
   */
 int print_sign(int n)
 {
+	int tmp;
+
 	if (n > 0)
 	{
 		_putchar(43);
-		return (1);
+		tmp = 1;
 	}
 	else if (n == 0)
 	{
 		_putchar(48);
-		return (0);
+		tmp = 0;
 	}
 	else
 	{
 		_putcahr(45);
-		return (0);
+		tmp = -1;
 	}
+	return (tmp);
 }
