@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * main - Entry point of the program
+  * print_alphabet - function that prints the aphpabets
   *
   * Return: Always return 0 on success
   *
