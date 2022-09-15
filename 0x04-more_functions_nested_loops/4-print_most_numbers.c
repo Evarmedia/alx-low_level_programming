@@ -11,7 +11,8 @@ void print_most_numbers(void)
 {
 	int num;
 
-	for (num = 0; num < 10; num++)
+	num = 0;
+	while (num < 10)
 	{
 		if (num == 2)
 			continue;
