@@ -16,7 +16,6 @@ void print_numbers(void)
 		if ((num == 50) || (num == 52))
 			continue;
 		_putchar(num)
-		num++;
 	}
 	_putchar(10);
 }
