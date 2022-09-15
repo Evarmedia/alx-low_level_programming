@@ -17,8 +17,6 @@ int _isupper(int c)
 		tmp = 1;
 
 	else
-	(c >= 97 && c <= 122)
-
 		tmp = 0;
 
 	return (tmp);
