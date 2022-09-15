@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-  * print_numbers - function that prints the aphpabets
+  * print_most_umbers - function that prints the aphpabets
   *
   * Return: Always return 0 on success
   *
   */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int num;
 
