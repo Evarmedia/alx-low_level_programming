@@ -12,12 +12,12 @@ int _isupper(int c)
 {
 	int tmp;
 
-	if ((c >= 65) && (c <= 90))
+	if (c >= 65 && c <= 90)
 
 		tmp = 1;
 
 	else
-	((c >= 97) && (c <= 122))
+	(c >= 97 && c <= 122)
 
 		tmp = 0;
 
