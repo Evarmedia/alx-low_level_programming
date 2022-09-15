@@ -13,9 +13,9 @@ void print_numbers(void)
 	num = 48;
 	for (num = 48; num < 58; num++)
 	{
-		_putchar(num);
 		if ((num == 50) || (num == 52))
 			continue;
+		_putchar(num)
 		num++;
 	}
 	_putchar(10);
