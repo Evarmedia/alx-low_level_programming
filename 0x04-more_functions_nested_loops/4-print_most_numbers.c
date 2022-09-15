@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * print_most_umbers - function that prints the numbers
+  * print_most_numbers - function that prints the numbers
   * doesnt print 2 and 4
   *
   * Return: Always return 0 on success
@@ -14,11 +14,8 @@ void print_most_numbers(void)
 	num = 0;
 	while (num < 10)
 	{
-		if (num == 2)
-			continue;
-		else if (num == 4)
-			continue;
-			_putchar( '0' + num);
+		if ((num != 4) && (num != 2))
+			_putchar('0' + num);
 	}
 	_putchar(10);
 }
