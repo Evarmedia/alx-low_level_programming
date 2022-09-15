@@ -8,7 +8,7 @@
   *
   */
 void print_most_numbers(void)
-i{
+{
 	int num;
 
 	for (num = 0; num < 10; num++)
