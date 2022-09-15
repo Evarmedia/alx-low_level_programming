@@ -13,9 +13,11 @@ void print_numbers(void)
 	num = 48;
 	for (num = 48; num < 58; num++)
 	{
-		if ((num == 50) || (num == 52))
+		if (num == 50)
 			continue;
-		_putchar(num)
+		else if (num == 52)
+			continue;
+			_putchar(num);
 	}
 	_putchar(10);
 }
