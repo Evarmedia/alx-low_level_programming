@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * print_most_numbers - function that prints the numbers
-  * doesnt print 2 and 4
+  * print_line - function that prints line on the terminal
   *
+  * @n: length of the line
   * Return: Always return 0 on success
   *
   */
