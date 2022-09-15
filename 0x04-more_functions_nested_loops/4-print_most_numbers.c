@@ -12,9 +12,9 @@ void print_most_numbers(void)
 
 	for (num = 48; num < 58; num++)
 	{
-		if (num == 50)
+		if (num !== 50)
 			continue;
-		else if (num == 52)
+		else if (num !== 52)
 			continue;
 			_putchar(num);
 	}
