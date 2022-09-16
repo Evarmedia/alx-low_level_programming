@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * print_numbers - function that prints the aphpabets
+  * print_numbers - function that multiplies two integers 
   *
   * Return: Always return 0 on success
   *
