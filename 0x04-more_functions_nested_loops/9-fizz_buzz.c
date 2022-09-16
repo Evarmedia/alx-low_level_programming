@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * fizz-Buzz test
  * Return: Always 0
  */
 int main(void)
