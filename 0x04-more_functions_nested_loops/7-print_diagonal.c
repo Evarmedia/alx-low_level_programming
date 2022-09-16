@@ -3,7 +3,7 @@
 /**
   * print_diagonal - function that prints diagonal line on the terminal
   * @n: length of the line
-  * Return: Always return 0 on success
+  * Return: Always return 0
   *
   */
 void print_diagonal(int n)
