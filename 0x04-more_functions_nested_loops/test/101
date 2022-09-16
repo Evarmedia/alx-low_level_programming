@@ -1,9 +1,0 @@
-#include <stdio.h>
-/** 
-  * one 
-  * two 
-  * three 
-  */
-int main(void)
-{
-

@@ -4,7 +4,7 @@
   * print_line - function that prints line on the terminal
   *
   * @n: length of the line
-  * Return: Always return 0 on success
+  * Return: Always return 0
   *
   */
 void print_line(int n)
