@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include "main.h"
 /**
   * mysqrt - a func to check 1 to n
