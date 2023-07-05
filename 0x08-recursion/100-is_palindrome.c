@@ -43,5 +43,5 @@ int is_palindrome(char *s)
 	int c;
 
 	c = mypalindrome1(s, 0);
-	return (my palindrome2(s, 1));
+	return (mypalindrome2(s, 1));
 }
