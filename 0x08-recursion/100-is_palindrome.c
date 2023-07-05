@@ -40,6 +40,8 @@ int mypalindrome2(char *a, int c)
   */
 int is_palindrome(char *s)
 {
-	int c = mypalindrome1(s, 0);
+	int c;
+
+	c = mypalindrome1(s, 0);
 	return (mypalindrome2(s, c));
 }
