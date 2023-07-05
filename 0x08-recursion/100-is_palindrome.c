@@ -1,47 +1,47 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
-  * mypalindrome1 - gets the length of a
-  *
-  * @a: string param
-  * @c: counter
-  *
-  * Return: 1 on success otherwise 0
-  */
-int mypalindrome1(char *a, int c)
+* palindo1 - obtains length of a
+* @a: string
+* @l: integer to count length
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
+int palindo1(char *a, int l)
 {
-	if (*a == 0)
-		return (c - 1);
-	return (mypalindrome1(a + 1, c + 1));
+if (*a == 0)
+return (l - 1);
+return (palindo1(a + 1, l + 1));
 }
 /**
-  * mypalindrome2 - checks str against rev str
-  *
-  * @a: str
-  * @c: len
-  *
-  * Return: 1 on sucess, -1 otherwise
-  */
-int mypalindrome2(char *a, int c)
+* palindo2 - compares string vs string reverse
+* @a: string
+* @l: length
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
+
+int palindo2(char *a, int l)
 {
-	if (*a != *(a + 1))
-		return (0);
-	else if (*a == 0)
-		return (1);
-	return (mypalindrome2(a + 1, c - 2));
+if (*a != *(a + l))
+return (0);
+else if (*a == 0)
+return (1);
+return (palindo2(a + 1, l - 2));
 }
 /**
-  * is_palindrome - checks if a string is a palindrome
-  *
-  * @s: str param
-  *
-  * Return: 1 on success otherwise -1;
-  *
-  */
+* is_palindrome - checks if a string is a palindrome
+* @s: string to evaluate
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
 int is_palindrome(char *s)
 {
-	int c;
+int l;
 
-	c = mypalindrome1(s, 0);
-	return (mypalindrome2(s, c));
+l = palindo1(s, 0);
+return (palindo2(s, l));
 }
