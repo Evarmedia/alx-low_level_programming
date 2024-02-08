@@ -12,7 +12,7 @@
  */
 int rec_search(int *array, size_t size, int value)
 {
-	size_t half = size / 2;
+	size_t h_half = size / 2;
 	size_t i;
 
 	if (array == NULL || size == 0)
@@ -25,21 +25,21 @@ int rec_search(int *array, size_t size, int value)
 
 	printf("\n");
 
-	if (half && size % 2 == 0)
-		half--;
+	if (h_half && size % 2 == 0)
+		h_half--;
 
-	if (value == array[half])
+	if (value == array[h_half])
 	{
-		if (half > 0)
-			return (rec_search(array, half + 1, value));
-		return ((int)half);
+		if (h_half > 0)
+			return (rec_search(array, h_half + 1, value));
+		return ((int)h_half);
 	}
 
-	if (value < array[half])
-		return (rec_search(array, half + 1, value));
+	if (value < array[h_half])
+		return (rec_search(array, h_half + 1, value));
 
-	half++;
-	return (rec_search(array + half, size - half, value) + half);
+	h_half++;
+	return (rec_search(array + h_half, size - h_half, value) + h_half);
 }
 
 /**

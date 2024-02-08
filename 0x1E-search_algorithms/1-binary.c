@@ -12,31 +12,31 @@
  */
 int recursive_search(int *array, size_t size, int value)
 {
-	size_t half = size / 2;
-	size_t i;
+	size_t f_half = size / 2;
+	size_t ind_i;
 
 	if (array == NULL || size == 0)
 		return (-1);
 
 	printf("Searching in array");
 
-	for (i = 0; i < size; i++)
-		printf("%s %d", (i == 0) ? ":" : ",", array[i]);
+	for (ind_i = 0; ind_i < size; ind_i++)
+		printf("%s %d", (ind_i == 0) ? ":" : ",", array[ind_i]);
 
 	printf("\n");
 
-	if (half && size % 2 == 0)
-		half--;
+	if (f_half && size % 2 == 0)
+		f_half--;
 
-	if (value == array[half])
-		return ((int)half);
+	if (value == array[f_half])
+		return ((int)f_half);
 
-	if (value < array[half])
-		return (recursive_search(array, half, value));
+	if (value < array[f_half])
+		return (recursive_search(array, f_half, value));
 
-	half++;
+	f_half++;
 
-	return (recursive_search(array + half, size - half, value) + half);
+	return (recursive_search(array + f_half, size - f_half, value) + f_half);
 }
 
 /**
